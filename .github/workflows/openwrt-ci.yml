@@ -7,15 +7,15 @@
 #
 name: OpenWrt-X86
 
-on:
-  schedule:
-    - cron: 0 20 * * *
+ #on:
+   #schedule:
+    # - cron: 0 20 * * *
   #push:
    # branches:
     #  - master    
     
-  release:
-    types: [published]
+   #release:
+     #types: [published]
     
 permissions:
   contents: read
